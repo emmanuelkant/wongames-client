@@ -15,7 +15,7 @@ const wrapperModifiers = {
   `,
   large: (theme: DefaultTheme) => css`
     font-size: ${theme.font.sizes.medium};
-    padding: ${theme.spacings.xxsmall} ${theme.spacings.large};
+    padding: ${theme.spacings.xxsmall} ${theme.spacings.xlarge};
     height: 5rem;
   `
 }
