@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Banner /> should render the heading 1`] = `
+exports[`<Banner /> should render correctly 1`] = `
 .c5 {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
@@ -68,6 +68,16 @@ exports[`<Banner /> should render the heading 1`] = `
   font-weight: 600;
 }
 
+@media (max-width:1170px) {
+  .c0 .sc-bdfBwQ {
+    right: 0;
+  }
+
+  .c0 .sc-bdfBwQ::before {
+    display: none;
+  }
+}
+
 @media (min-width:768px) {
   .c0 {
     box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
@@ -106,7 +116,7 @@ exports[`<Banner /> should render the heading 1`] = `
   class="c0"
 >
   <div
-    aria-label="Defy Death"
+    aria-label="Defy death"
     class="c1"
     role="img"
     src="https://source.unsplash.com/user/willianjusten/1042x580"
@@ -117,7 +127,7 @@ exports[`<Banner /> should render the heading 1`] = `
     <h2
       class="c3"
     >
-      Defy Death
+      Defy death
     </h2>
     <h3
       class="c4"
@@ -125,7 +135,7 @@ exports[`<Banner /> should render the heading 1`] = `
       <p>
         Play the new 
         <strong>
-          CrasLands
+          CrashLands
         </strong>
          season
       </p>
@@ -135,7 +145,7 @@ exports[`<Banner /> should render the heading 1`] = `
       href="/games/defy-death"
     >
       <span>
-        Buy Now
+        Buy now
       </span>
     </a>
   </div>
